@@ -28,8 +28,7 @@ git clone https://github.com/boston-dynamics/spot-sdk.git
 cd spot-sdk
 
 # Create and activate a virtual environment
-python3 -m pip install virtualenv
-python3 -m virtualenv --python=/usr/bin/python3 spotenv
+python3 -m venv spotenv
 source spotenv/bin/activate
 
 # Install required Python packages
